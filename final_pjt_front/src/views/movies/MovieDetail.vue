@@ -93,12 +93,10 @@ import ReviewList from '@/components/movieDetail/ReviewList.vue'
 
 
 const SERVER_URL = 'http://127.0.0.1:8000'
-// const API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY
-// const API_KEY = "AIzaSyCF5oBBoZj56Vh4FeecAAU7FFdUEZpYmp0"
-const API_KEY = "AIzaSyCTwf9x3dBp4OisrDnNcd9JdX-gj-Yr7As"
+const API_KEY = '---'
 const API_URL = 'https://www.googleapis.com/youtube/v3/search'
 const TMDB_API_URL = 'https://api.themoviedb.org/3/search/movie'
-const TMDB_API_KEY = '855a492c9200874fb59ae13ce2700b8e'
+const TMDB_API_KEY = '---'
 
 export default {
     name : 'MovieDetail',
