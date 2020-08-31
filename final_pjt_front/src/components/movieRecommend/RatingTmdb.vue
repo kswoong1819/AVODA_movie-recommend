@@ -35,7 +35,7 @@ import axios from "axios"
 import _ from "lodash"
 
 const TMDB_API_URL = "https://api.themoviedb.org/3/trending/all/day"
-const TMDB_API_KEY = "855a492c9200874fb59ae13ce2700b8e"
+const TMDB_API_KEY = "---"
 
 export default {
   name: "RatingTmdb",
