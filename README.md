@@ -1,5 +1,28 @@
 # FINAL-PJT
 
+1. 실행하기
+
+   ### Backend
+
+   ```
+   cd final_pjt_back
+   pip install -r requirements.txt
+   python manage.py makemigrations
+   python manage.py migrate
+   python manage.py loaddata movies/fixtures/moviedata.json
+   python manage.py runserver
+   ```
+
+   ### Frontend
+
+   ```
+   cd final_pjt_front
+   npm install
+   npm run serve -- --port 3000
+   ```
+
+   
+
 ##### 프로젝트 기본 구조
 
 ![image-20200617114711741](README.assets/image-20200617114711741.png)
